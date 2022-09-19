@@ -18,15 +18,18 @@
     <title>Cards</title>
   </head>
   <body>
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-      <h1 class="row text-center font-weight-normal">Pricing</h1>
+    <div class="container d-flex flex-column align-items-center my-auto">
+      <div class="row text-center header">Pricing</div>
       <div class="row description text-center mb-5">
-          Quickly build an effective pricing table for your potential customers
+        <div class="col-2"></div>
+        <div class="col-8 intro"> Quickly build an effective pricing table for your potential customers
           with this Bootstrap example. It's built with default Bootstrap
-          components and utilities with little customization.
-      </div>
+          components and utilities with little customization.</div> 
+          <div class="col-2"></div>     
+        </div>
       <div class="card-deck row w-100 p-1">
-        <div class="card text-center">
+        <div class="col-md-4 p-1">
+          <div class="card text-center">
           <h4 class="card-header">Free</h4>
           <div class="card-body">
             <h2 class="card-title font-weight-normal"><strong>$0</strong> / mo</h2>
@@ -38,31 +41,35 @@
             </p>
             <a href="#" class="btn btn-primary w-100">Sign up for free</a>
           </div>
-        </div>
-        <div class="card text-center">
-          <h4 class="card-header">Pro</h4>
-          <div class="card-body">
-            <h2 class="card-title font-weight-normal"><strong>$15</strong> / mo</h2>
-            <p class="list-group card-text">
-                <p class="list-item m-0">20 users included</p>
-                <p class="list-item m-0">10 GB of storage</p>
-                <p class="list-item m-0">Priority email support</p>
-                <p class="list-item m-0">Help center access</p>                 
-            </p>
-            <a href="#" class="btn btn-primary w-100">Get started</a>
+        </div></div>
+        <div class="col-md-4 p-1">
+          <div class="card text-center">
+            <h4 class="card-header">Pro</h4>
+            <div class="card-body">
+              <h2 class="card-title font-weight-normal"><strong>$15</strong> / mo</h2>
+              <p class="list-group card-text">
+                  <p class="list-item m-0">20 users included</p>
+                  <p class="list-item m-0">10 GB of storage</p>
+                  <p class="list-item m-0">Priority email support</p>
+                  <p class="list-item m-0">Help center access</p>                 
+              </p>
+              <a href="#" class="btn btn-primary w-100">Get started</a>
+            </div>
           </div>
         </div>
-        <div class="card text-center ">
-          <h4 class="card-header">Enterprise</h4>
-          <div class="card-body">
-            <h2 class="card-title font-weight-normal"><strong>$29</strong> / mo</h2>
-            <p class="list-group card-text">
-                <p class="list-item m-0">30 users included</p>
-                <p class="list-item m-0">15 GB of storage</p>
-                <p class="list-item m-0">Phone and email support</p>
-                <p class="list-item m-0">Help center access</p>    
-            </p>
-            <a href="#" class="btn btn-primary w-100">Contact us</a>
+        <div class="col-md-4 p-1">
+          <div class="card text-center">
+            <h4 class="card-header">Enterprise</h4>
+            <div class="card-body">
+              <h2 class="card-title font-weight-normal"><strong>$29</strong> / mo</h2>
+              <p class="list-group card-text">
+                  <p class="list-item m-0">30 users included</p>
+                  <p class="list-item m-0">15 GB of storage</p>
+                  <p class="list-item m-0">Phone and email support</p>
+                  <p class="list-item m-0">Help center access</p>    
+              </p>
+              <a href="#" class="btn btn-primary w-100">Contact us</a>
+            </div>
           </div>
         </div>
       </div>
