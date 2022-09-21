@@ -13,63 +13,69 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
 
     <title>Cards</title>
   </head>
-  <body>
+  <body class="d-flex min-vh-100 min-vw-100">
     <div class="container d-flex flex-column align-items-center my-auto">
-      <div class="row text-center header">Pricing</div>
-      <div class="row description text-center mb-5">
+      <div class="row text-center h1 font-weight-normal">Pricing</div>
+      <div class="row text-center mb-5">
         <div class="col-2"></div>
-        <div class="col-8 intro"> Quickly build an effective pricing table for your potential customers
+        <div class="col-8 lead">
+          Quickly build an effective pricing table for your potential customers
           with this Bootstrap example. It's built with default Bootstrap
-          components and utilities with little customization.</div> 
-          <div class="col-2"></div>     
+          components and utilities with little customization.
         </div>
-      <div class="card-deck row w-100 p-1">
-        <div class="col-md-4 p-1">
-          <div class="card text-center">
+        <div class="col-2"></div>
+      </div>
+      <div class="card-deck flex-column flex-md-row row w-100 p-1">
+        <div class="card shadow-sm text-center mb-sm-5">
           <h4 class="card-header">Free</h4>
-          <div class="card-body">
-            <h2 class="card-title font-weight-normal"><strong>$0</strong> / mo</h2>
-            <p class="list-group card-text">
-              <p class="list-item m-0">10 users included</p>
-              <p class="list-item m-0">2 GB of storage</p>
-              <p class="list-item m-0">Email support</p>
-              <p class="list-item m-0">Help center access</p>
-            </p>
-            <a href="#" class="btn btn-primary w-100">Sign up for free</a>
-          </div>
-        </div></div>
-        <div class="col-md-4 p-1">
-          <div class="card text-center">
-            <h4 class="card-header">Pro</h4>
-            <div class="card-body">
-              <h2 class="card-title font-weight-normal"><strong>$15</strong> / mo</h2>
-              <p class="list-group card-text">
-                  <p class="list-item m-0">20 users included</p>
-                  <p class="list-item m-0">10 GB of storage</p>
-                  <p class="list-item m-0">Priority email support</p>
-                  <p class="list-item m-0">Help center access</p>                 
-              </p>
-              <a href="#" class="btn btn-primary w-100">Get started</a>
-            </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="card-title font-weight-normal">
+              <strong>$0</strong> <span class="text-muted">/ mo</span>
+            </h2>
+            <ul class="list-unstyled card-text">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100 mt-auto"
+              >Sign up for free</a
+            >
           </div>
         </div>
-        <div class="col-md-4 p-1">
-          <div class="card text-center">
-            <h4 class="card-header">Enterprise</h4>
-            <div class="card-body">
-              <h2 class="card-title font-weight-normal"><strong>$29</strong> / mo</h2>
-              <p class="list-group card-text">
-                  <p class="list-item m-0">30 users included</p>
-                  <p class="list-item m-0">15 GB of storage</p>
-                  <p class="list-item m-0">Phone and email support</p>
-                  <p class="list-item m-0">Help center access</p>    
-              </p>
-              <a href="#" class="btn btn-primary w-100">Contact us</a>
-            </div>
+
+        <div class="card shadow-sm text-center mb-sm-5">
+          <h4 class="card-header">Pro</h4>
+          <div class="card-body d-flex flex-column">
+            <h2 class="card-title font-weight-normal">
+              <strong>$15</strong> <span class="text-muted">/ mo</span>
+            </h2>
+            <ul class="list-unstyled card-text">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <a href="#" class="btn btn-primary w-100 mt-auto">Get started</a>
+          </div>
+        </div>
+
+        <div class="card shadow-sm text-center mb-sm-5">
+          <h4 class="card-header">Enterprise</h4>
+          <div class="card-body d-flex flex-column">
+            <h2 class="card-title font-weight-normal">
+              <strong>$29</strong> <span class="text-muted">/ mo</span>
+            </h2>
+            <ul class="list-unstyled card-text">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <a href="#" class="btn btn-primary w-100 mt-auto">Contact us</a>
           </div>
         </div>
       </div>
